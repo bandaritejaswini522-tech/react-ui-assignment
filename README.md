@@ -62,10 +62,17 @@ npm install
 npm run dev
 ```
 
-### Run Storybook
+### Run Storybook (local)
 ```bash
 npm run storybook
 ```
+
+### Build Storybook (static files)
+```bash
+npm run build-storybook
+```
+
+This will create a `storybook-static/` folder with static HTML files.  
 
 ---
 
@@ -74,7 +81,7 @@ npm run storybook
 - Built with **React + TypeScript + TailwindCSS**.
 - Storybook configured with **@storybook/react-vite**.
 - Code is organized in a **scalable structure** (each component in its own folder).
-- This project can be deployed to **Chromatic** or **Vercel** for a live Storybook preview.
+- Storybook runs **locally**; if you want a live link, you can deploy using **Chromatic**.
 
 ---
 
@@ -82,5 +89,4 @@ npm run storybook
 
 For assignment submission, please provide:
 1. **GitHub repository link** with this project structure.  
-2. **Storybook deployment link** (Chromatic or Vercel).  
-
+2. **Storybook deployment link** (using Chromatic if needed).  
