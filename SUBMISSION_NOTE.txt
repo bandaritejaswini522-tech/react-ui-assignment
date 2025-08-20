@@ -1,0 +1,29 @@
+SUBMISSION NOTE (paste this into the assignment portal)
+
+Title: React UI Assignment — InputField & DataTable (React + TypeScript + Tailwind, Storybook, Vitest)
+
+Overview:
+- Built two reusable, accessible UI components with modern stack (React 18 + TypeScript + Vite + TailwindCSS).
+- Documented in Storybook (states: default/invalid/loading/password/clearable for InputField; default/loading/selectable/empty for DataTable).
+- Added Vitest + Testing Library unit tests covering core interactions.
+- Included a demo page showcasing integration of both components.
+
+How to run locally:
+1) npm install
+2) npm run dev         # demo
+3) npm run storybook   # component docs
+4) npm test            # unit tests
+5) npm run build       # production build (Vite)
+
+Links:
+- GitHub repository: <PASTE YOUR REPO LINK HERE>
+- Live demo (Vercel/Netlify): <PASTE LIVE URL HERE>
+- Storybook link (Chromatic/Vercel): <PASTE STORYBOOK URL HERE>
+
+Highlights:
+- Accessibility: labelled inputs, aria-invalid, aria-sort, keyboard-friendly controls.
+- Type safety: generic DataTable<T>, strict TS config, forwardRef InputField.
+- DX & QA: Storybook for design review, tests for reliability, clean README for onboarding.
+
+Notes:
+- Happy to walk through code decisions (sorting strategy, selection state, a11y) and extend features (pagination, form library integration).
